@@ -35,7 +35,7 @@ module.exports = {
     .setColor(Color)
     .setTitle(`Info`)
     .setThumbnail(client.user.displayAvatarURL())
-    .setDescription(`Here are all the Info commands: \n\n \`help\`, \`invite\`, \`setprefix\`,  \`setpre\`,  \`removepremium\``)
+    .setDescription(`Here are all the Info commands: \n\n \`help\`, \`invite\``)
     .setFooter(`Requested by: ${message.author.tag}`)
 
 
